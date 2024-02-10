@@ -679,8 +679,7 @@ img {
 }
 
 .modal-form-label {
-  display: flex;
-  align-items: center;
+  display: block;
   color: #8e8f99;
   font-size: 12px;
   line-height: 1.17;
@@ -767,10 +766,10 @@ img {
 .modal-checkbox a {
   color: #4d5ae5;
   text-decoration: underline;
-  margin-left: 2px;
+  margin-left: 1px;
 }
 
-.modal-form-label .modal-privacy-check {
+.modal-privacy-check {
   display: inline-flex;
   justify-content: center;
   align-items: center;
